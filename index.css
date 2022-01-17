@@ -381,15 +381,69 @@ hr{
       grid-column-gap: 25px;
       grid-row-gap: 25px;
    }
+   .see{
+      margin-left: 65%;
+      margin-top: 20px;
+   }
 }
 
+
 /* third section start  */
 /* third section start  */
 /* third section start  */
 
+.third-section{
+   padding: 0 5%;
+   display: flex;
+   
+}
+.third-text{
+   margin-left: 96px;
+}
 
+.third-text h2{
+   color: #0A0826;
+   font-size: 30px;
+   margin: 0;
+   margin-top: 25px;
+}
+.third-section p{
+   color: var(--p-tag-color);
+   margin: 0;
+   margin-top: 10px;
+   font-weight: 600;
+}
+.third-text button{
+   border-radius: 0px;
+   margin-top: 20px;
+}
 
+@media screen and (max-width:767px){
+   .third-section{
+      display: block;
+      padding: 0 2%;
+   }
+   .third-text{
+      margin-left: 0;
+      text-align: center;
+   }
+   .third-text h2{
+      font-size: 24px;
+   }
+   .third-text p{
+      font-size: 14px;
+   }
+   .third-image img{
+      width: 99%;
+      justify-content: center;
+   }
+   .third-text button{
+      padding: 12px 120px;
+   }
+}
+@media(min-width: 500px) and (max-width: 720px){
 
+}
 
 
 
