@@ -1,5 +1,6 @@
 *{
    scroll-behavior: smooth;
+   font-family: 'Poppins', sans-serif;
 }
 body{
    box-sizing: border-box;
@@ -156,6 +157,7 @@ nav ul li:hover a{
    width: 80%;
    margin-top: 70px;
    background-image: url(images/Circle\ design.svg);
+   background-repeat: no-repeat;
 }
  .srcoll-button {
    position: fixed;
@@ -196,16 +198,20 @@ nav ul li:hover a{
    }
    .header-images .camera{
     margin-left: 17px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 400px;
  
    }
    .header-text{
       margin-top: 340px;
       display: grid;
       grid-row-gap: 5px;
-      justify-content: center;
+      text-align: center;
    }
    .header-text h1{
       font-size: 28px; 
+      
    }
    .header-text p{
       font-size: 14px;
