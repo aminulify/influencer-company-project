@@ -1,8 +1,10 @@
+*{
+   scroll-behavior: smooth;
+}
 body{
    box-sizing: border-box;
    margin: 0;
    padding: 0 5%;
-   scroll-behavior: smooth;
    font-family: 'Poppins', sans-serif;
 }
 :root{
@@ -20,6 +22,7 @@ body{
 
 .link-header{
    padding-top: 25px;
+   align-items: center;
 }
 nav{
    display: flex;
@@ -100,3 +103,111 @@ nav ul li:hover a{
 /* end header navbar tag  */
 /* end header navbar tag  */
 /* end header navbar tag  */
+
+.header-section{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column-gap: 100px;
+  
+}
+.header-text{
+   margin-top: 100px;
+}
+.header-text h1{
+   color: var(--header-tag-color);
+   font-size: 52px;
+   margin: 0;
+   padding: 0;
+   
+}
+.header-text p{
+   font-size: 16px;
+   font-weight: 600;
+   color: var(--header-tag-color);
+   margin: 0;
+   margin-bottom: 23px;
+   margin-top: 8px;
+}
+.button-btn{
+    padding: 12px 24px;
+    border: none;
+    background-color: var(--button-color);
+    border-radius: 50px;
+}
+.button-btn:hover{
+   background-color: #fff;
+   border: 2px solid var(--button-color);
+   transition: sliding 0.3s;
+   
+}
+.button-btn a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: 700;
+}
+.button-btn:hover a{
+   color: var(--button-color);
+   transition: all 0.5s;
+}
+
+.header-images .camera{
+   margin-left: 30px;
+   width: 80%;
+   margin-top: 70px;
+   background-image: url(images/Circle\ design.svg);
+}
+ .srcoll-button {
+   position: fixed;
+   height: 45px;
+   width: 45px;
+   background-color: var(--button-color);
+   border-radius: 50px;
+   margin-top: 460px;
+   font-size: 24px;
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   margin-left: 88%;
+   
+}
+.srcoll-button a{
+   color: #fff;
+}
+.srcoll-button:hover{
+  box-shadow: 1px 1px 5px var(--button-color);
+  transition: all 0.5s;
+}
+
+@media(max-width:940px){
+   .srcoll-button{
+      display: none;
+   }
+   .srcoll-button a{
+      display: none;
+   }
+   .header-section{
+      grid-template-columns: repeat(1,1fr);
+   }
+   .header-images{
+      position: absolute;
+      margin: 0;
+      padding: 0;
+   }
+   .header-images .camera{
+    margin-left: 17px;
+ 
+   }
+   .header-text{
+      margin-top: 340px;
+      display: grid;
+      grid-row-gap: 5px;
+      justify-content: center;
+   }
+   .header-text h1{
+      font-size: 28px; 
+   }
+   .header-text p{
+      font-size: 14px;
+   }
+}
