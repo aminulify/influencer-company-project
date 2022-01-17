@@ -181,7 +181,7 @@ nav ul li:hover a{
   transition: all 0.5s;
 }
 
-@media(max-width:940px){
+@media screen and (max-width:767px){
    .srcoll-button{
       display: none;
    }
@@ -221,9 +221,10 @@ nav ul li:hover a{
       justify-content: center;
    }
 }
-@media(max-width:1050px){
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
    .header-text{
-      margin-top: 600px;
+      margin-top: 680px;
       
    }
    .header-text h1{
@@ -233,7 +234,6 @@ nav ul li:hover a{
       font-size: 16px;
    }
 }
-
 /* brand logo header  */
 /* brand logo header  */
 /* brand logo header  */
@@ -258,7 +258,7 @@ hr{
    color: rgb(202, 202, 202);
 }
 
-@media(max-width:940px){
+@media screen and (max-width:767px){
    header{
       margin-top: 80px;
    }
