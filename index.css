@@ -240,17 +240,20 @@ nav ul li:hover a{
 
 header{
    margin-top: 120px;
+   padding: 0;
+   align-items: center;
 }
 header ul{
    list-style: none;
    display: grid;
    grid-template-columns: repeat(7,1fr);
+   align-items: center;
   
 }
 header ul li{
-   margin-top: 20px;
    align-items: center;
    cursor: pointer;
+   
 }
 
 
@@ -262,16 +265,23 @@ hr{
    
    header{
       margin-top: 80px;
+      
    }
    header ul{
    grid-template-columns: repeat(4,1fr);
-   padding-left: 0;
-   text-align: center;
-  
+   align-items: center;
+   padding-left: 15px;
+   justify-content: center;
+
    }
- 
+
+ header ul li{
+   line-height: 40px;
+ }
    header ul li img{  
       width: 70%;
+      
+     
    }
 }
 
@@ -282,6 +292,7 @@ hr{
 .second-section{
    padding: 0 7%;
    margin-top: 90px;
+   margin-bottom: 90px;
    
 }
 .second-section .header-h2{
@@ -321,7 +332,7 @@ hr{
 .see-more{
    color: var(--button-color);
 }
-.btn{
+.see{
    margin-left: 91%;
    margin-top: 20px;
 }
@@ -344,7 +355,7 @@ hr{
       grid-column-gap: 25px;
       grid-row-gap: 25px;
    }
-   .btn{
+   .see{
       margin-left: 70%;
       margin-top: 20px;
    }
@@ -375,6 +386,7 @@ hr{
 /* third section start  */
 /* third section start  */
 /* third section start  */
+
 
 
 
