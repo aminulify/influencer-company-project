@@ -164,7 +164,7 @@ nav ul li:hover a{
    height: 45px;
    width: 45px;
    background-color: var(--button-color);
-   border-radius: 50px;
+   border-radius: 8px;
    margin-top: 460px;
    font-size: 24px;
    display: grid;
@@ -197,7 +197,7 @@ nav ul li:hover a{
       padding: 0;
    }
    .header-images .camera{
-    margin-left: 17px;
+    
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 400px;
@@ -216,4 +216,9 @@ nav ul li:hover a{
    .header-text p{
       font-size: 14px;
    }
+   .section-one{
+      align-items: center;
+      justify-content: center;
+   }
+   
 }
