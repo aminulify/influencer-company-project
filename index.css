@@ -220,5 +220,60 @@ nav ul li:hover a{
       align-items: center;
       justify-content: center;
    }
-   
+}
+@media(max-width:1050px){
+   .header-text{
+      margin-top: 600px;
+      
+   }
+   .header-text h1{
+      font-size: 32px;
+   }
+   .header-text p{
+      font-size: 16px;
+   }
+}
+
+/* brand logo header  */
+/* brand logo header  */
+/* brand logo header  */
+
+header{
+   margin-top: 120px;
+}
+header ul{
+   list-style: none;
+   display: grid;
+   grid-template-columns: repeat(7,1fr);
+  
+}
+header ul li{
+   margin-top: 25px;
+   align-items: center;
+   cursor: pointer;
+}
+
+
+hr{
+   color: rgb(202, 202, 202);
+}
+
+@media(max-width:940px){
+   header{
+      margin-top: 80px;
+   }
+   header ul{
+   grid-template-columns: repeat(4,1fr);
+   padding-left: 0;
+   text-align: center;
+  
+   }
+ 
+   header ul li img{  
+      width: 70%;
+   }
+}
+
+main{
+   margin-bottom: 500px;
 }
