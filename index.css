@@ -318,6 +318,13 @@ hr{
    padding-left: 3px;
    color: var(--header-tag-color);
 }
+.see-more{
+   color: var(--button-color);
+}
+.btn{
+   margin-left: 91%;
+   margin-top: 20px;
+}
 
 @media screen and (max-width:767px){
    .second-section{
@@ -337,6 +344,11 @@ hr{
       grid-column-gap: 25px;
       grid-row-gap: 25px;
    }
+   .btn{
+      margin-left: 70%;
+      margin-top: 20px;
+   }
+
 }
 
 @media(min-width: 500px) and (max-width: 720px){
@@ -359,6 +371,12 @@ hr{
       grid-row-gap: 25px;
    }
 }
+
+/* third section start  */
+/* third section start  */
+/* third section start  */
+
+
 
 
 
