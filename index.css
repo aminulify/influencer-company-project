@@ -36,7 +36,7 @@ nav .menu{
 nav .logo a{
    color: var(--header-tag-color);
    text-decoration: none;
-   font-size: 24px;
+   font-size: 1.44em;
    font-weight: 700;
 }
 .logo:hover a{
@@ -222,9 +222,9 @@ nav ul li:hover a{
    }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media(min-width: 500px) and (max-width: 720px){
    .header-text{
-      margin-top: 680px;
+      margin-top: 450px;
       
    }
    .header-text h1{
@@ -259,6 +259,7 @@ hr{
 }
 
 @media screen and (max-width:767px){
+   
    header{
       margin-top: 80px;
    }
