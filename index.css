@@ -345,7 +345,7 @@ hr{
    margin-top: 20px;
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:940px){
    .second-section{
       padding: 0 4%;
       margin-top: 60px;
@@ -358,10 +358,13 @@ hr{
       margin-bottom: 30px;
    }
    .products{
-      display: grid;
+      /* display: grid;
       grid-template-columns: repeat(1,1fr);
       grid-column-gap: 25px;
-      grid-row-gap: 25px;
+      grid-row-gap: 25px; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
    }
    .see{
       margin-left: 70%;
@@ -384,10 +387,9 @@ hr{
       margin-bottom: 30px;
    }
    .products{
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-      grid-column-gap: 25px;
-      grid-row-gap: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
    }
    .see{
       margin-left: 65%;
@@ -426,7 +428,7 @@ hr{
    margin-top: 20px;
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:940px){
    .third-section{
       display: block;
       padding: 0 2%;
