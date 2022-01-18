@@ -122,7 +122,7 @@ nav ul li:hover i{
  }
 
  #nav-icon:checked ~ .navigation-icon{
-   /* left: 0%; */
+   left: 0%;
    z-index: 5;
    transition: 0.4s ease-in-out;
  }
