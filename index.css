@@ -406,6 +406,9 @@ hr{
       margin-left: 70%;
       margin-top: 20px;
    }
+   .see-more{
+      font-size: 12px;
+   }
 
 }
 
@@ -430,6 +433,9 @@ hr{
    .see{
       margin-left: 65%;
       margin-top: 20px;
+   }
+   .see-more{
+      font-size: 12px;
    }
 }
 
